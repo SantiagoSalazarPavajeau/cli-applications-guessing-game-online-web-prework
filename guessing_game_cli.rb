@@ -1,4 +1,4 @@
-def run_guessing_game(number, input)
+def run_guessing_game
   number = rand(6) + 1
   input = gets.chomp
   if number == input
